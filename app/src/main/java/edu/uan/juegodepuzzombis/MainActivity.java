@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     Button BTNLOGIN,BTNREGISTRO;
-     /*jueguemos en app puz zombiz*/
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
