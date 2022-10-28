@@ -1,0 +1,13 @@
+<resources>
+    <!--ACTIVIDAD MAIN ACTIVITY-->
+    <string name="app_name">juegodepuzzombis</string>
+    <string name="BTNLOGIN">LOGIN</string>
+    <string name="BTNREGISTRO">REGISTRO</string>
+
+    <!--ACTIVIDAD DE REGISTRO-->
+    <string name="correoEt">Correo electronico</string>
+    <string name="passEt">Contraseña</string>
+    <string name="nombreEt">Nombre</string>
+    <string name="fechaTxt">Fecha</string>
+    <string name="Registrar">REGISTRAR</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Registro">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+        <!--correo electronico-->
+      <EditText
+          android:id="@+id/correoEt"
+          android:hint="@string/correoEt"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:inputType="textEmailAddress"
+          android:importantForAutofill="no" />
+        <!--contraseña-->
+        <EditText
+            android:id="@+id/passEt"
+            android:hint="@string/passEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:importantForAutofill="no" />
+        <!--nombre-->
+        <EditText
+            android:id="@+id/nombreEt"
+            android:hint="@string/nombreEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:importantForAutofill="no" />
+        <!--fecha-->
+        <TextView
+            android:id="@+id/fechaTxt"
+            android:text="@string/fechaTxt"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <!--REGISTRO DEL JUGADOR-->
+        <Button
+            android:id="@+id/Registrar"
+            android:text="@string/Registrar"
+            android:layout_marginTop="10dp"
+            android:background="#FA072C"
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>
