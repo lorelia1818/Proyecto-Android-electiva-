@@ -14,15 +14,14 @@ public class Splash extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
 
         int DURACION_SPLASH = 1500;
-        /*HANDLER, EJECUTAR LINEAS DE CODIGO DE UN TIEMPO DETERMINADO*/
-
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                /*codigo que se ejecuta*/
-                Intent intent = new Intent(Splash.this,MainActivity.class);
-                /*codigo que ejecuta */
+                Intent intent = new Intent(Splash.this, MainActivity.class);
+                startActivity(intent);
             };
         },DURACION_SPLASH);
+
     }
 }
+
