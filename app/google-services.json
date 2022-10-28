@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "923628755479",
+    "project_id": "juego-puz-zombis",
+    "storage_bucket": "juego-puz-zombis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923628755479:android:ac69c0363f8528d065da52",
+        "android_client_info": {
+          "package_name": "edu.uan.juegodepuzzombis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923628755479-tprje9l2o46m5u3nvqjj901roc4aebuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCZymjdj-mqr5fE4qbknnALySfO_hsJbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923628755479-tprje9l2o46m5u3nvqjj901roc4aebuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
