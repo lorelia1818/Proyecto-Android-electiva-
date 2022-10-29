@@ -8,9 +8,16 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
+
 public class MainActivity extends AppCompatActivity {
     Button BTNLOGIN,BTNREGISTRO;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "HAS HECHO CLICK EN EL BOTON LOGIN", Toast.LENGTH_SHORT).show();
             }
         });
+
         BTNREGISTRO.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -34,5 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
     }
 }

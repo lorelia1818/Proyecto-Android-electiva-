@@ -1,6 +1,7 @@
 <resources>
-    <!--ACTIVIDAD MAIN ACTIVITY-->
+
     <string name="app_name">juegodepuzzombis</string>
+    <!--ACTIVIDAD MAIN ACTIVITY-->
     <string name="BTNLOGIN">LOGIN</string>
     <string name="BTNREGISTRO">REGISTRO</string>
 
@@ -10,4 +11,5 @@
     <string name="nombreEt">Nombre</string>
     <string name="fechaTxt">Fecha</string>
     <string name="Registrar">REGISTRAR</string>
+
 </resources>
