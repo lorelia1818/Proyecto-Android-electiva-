@@ -11,5 +11,9 @@
     <string name="nombreEt">Nombre</string>
     <string name="fechaTxt">Fecha</string>
     <string name="Registrar">REGISTRAR</string>
+    <!--ACTIVIDAD DE LOGIN-->
+    <string name="correoLogin">Correo electroonico</string>
+    <string name="passLogin">Contraseña</string>
+    <string name="BTNLogin">Ingresar</string>
 
 </resources>

@@ -14,6 +14,7 @@
         android:orientation="vertical"
         android:padding="10dp">
 
+
         <!--correo electronico-->
         <EditText
             android:id="@+id/correoEt"
@@ -50,11 +51,11 @@
         <!--REGISTRO DEL JUGADOR-->
         <Button
             android:id="@+id/Registrar"
+            android:text="REGISTRAR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="#FA072C"
-            android:text="REGISTRAR"
             android:textColor="#ffffff" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
