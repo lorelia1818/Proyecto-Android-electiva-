@@ -14,6 +14,8 @@
     <!--ACTIVIDAD DE LOGIN-->
     <string name="correoLogin">Correo electroonico</string>
     <string name="passLogin">Contraseña</string>
-    <string name="BTNLogin">Ingresar</string>
+
+
+    <string name="CerrarSesion">Cerrar sesion</string>
 
 </resources>
