@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-
 public class MainActivity extends AppCompatActivity {
     Button BTNLOGIN,BTNREGISTRO;
 
@@ -19,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         BTNLOGIN = findViewById(R.id.BTNLOGIN);
         BTNREGISTRO = findViewById(R.id.BTNREGISTRO);
 
+
         BTNLOGIN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -26,9 +26,10 @@ public class MainActivity extends AppCompatActivity {
                 //Toast.makeText(MainActivity.this, "HAS HECHO CLICK EN EL BOTON LOGIN", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(MainActivity.this,Login.class);
                 startActivity(intent);
-            }
 
+            }
         });
+
         BTNREGISTRO.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -38,6 +39,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-
     }
 }
+
